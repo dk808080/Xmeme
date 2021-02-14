@@ -1,0 +1,18 @@
+.single_meme {
+  text-align: center;
+  width: 25rem;
+  margin: 2rem auto;
+}
+
+@media (max-width: 400px) {
+  .single_meme {
+    width: 20rem;
+    margin: 2rem;
+  }
+}
+@media (max-width: 367px) {
+  .single_meme {
+    width: 15rem;
+    margin: 2rem 0;
+  }
+}

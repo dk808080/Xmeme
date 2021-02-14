@@ -1,0 +1,48 @@
+.list {
+  text-align: justify;
+}
+
+.memeslist {
+  border-bottom: 2px solid darkslategrey;
+  margin: 1rem 4rem;
+  padding: 1rem 4rem 4rem 4rem;
+}
+
+.addbutton {
+  margin-left: 10rem;
+  padding: 1rem 3rem;
+  background-color: #dfe8f1;
+}
+
+@media (max-width: 950px) {
+  .memeslist {
+    margin: 0;
+    margin-bottom: 5rem;
+    padding: 1rem;
+  }
+  .addbutton {
+    margin-left: 5rem;
+    padding: 1rem;
+  }
+}
+
+.eachmeme {
+  margin-top: 1rem !important;
+}
+
+.more {
+  margin-bottom: 1rem;
+}
+
+.card-body {
+  padding-top: 0;
+}
+
+.like {
+  margin: 0.5rem 0 0.5rem 2rem;
+}
+.like-heart {
+  font-size: 1.5rem;
+  color: maroon;
+  margin-right: 0.5rem;
+}
