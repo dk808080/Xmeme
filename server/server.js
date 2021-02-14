@@ -29,7 +29,6 @@ app.use(express.json());
 app.use(bodyParser.json());
 
 app.use(cors());
-dotenv.config();
 
 app.use("/", memeRoutes);
 
