@@ -37,8 +37,10 @@ app.use("/swagger-ui", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 const PORT = process.env.PORT || 8081;
 
+const CONNECTION_URL="mongodb://localhost:27017/xmemeDB";
+
 mongoose
-  .connect(process.env.CONNECTION_URL, {
+  .connect(CONNECTION_URL, {
     dbName: "xmemeDB",
     useNewUrlParser: true,
     useUnifiedTopology: true,
