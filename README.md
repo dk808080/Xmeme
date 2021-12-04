@@ -11,6 +11,9 @@ Mongoose
 
 ## Steps to Run 
 
+In project directory go to server folder and add a .env file which contains following - 
+MONGOURI= MongoDB atlas URL
+<br/>
 Then in the project directory, you can run:
 
 ### `cd server`
