@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-const dotenv = require("dotenv");
+require("dotenv").config();
 const cors = require("cors");
 const memeRoutes = require("./routes/meme");
 const swaggerUi = require("swagger-ui-express");
@@ -15,7 +15,7 @@ const swaggerOptions = {
       contact: {
         name: "Dimpal Kataniya",
       },
-      servers: ["http://localhost:8081/"],
+      servers: ["https://xmeme-app-server.herokuapp.com/"],
     },
   },
   apis: ["./routes/*.js"],
@@ -34,13 +34,12 @@ app.use("/", memeRoutes);
 
 app.use("/swagger-ui", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
-const PORT = 8081;
+const PORT = process.env.PORT || 8081;
 
-const CONNECTION_URL="mongodb://localhost:27017/xmemeDB";
+const CONNECTION_URL=process.env.MONGOURI;
 
 mongoose
   .connect(CONNECTION_URL, {
-    dbName: "xmemeDB",
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
