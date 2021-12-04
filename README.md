@@ -1,5 +1,7 @@
 # Xmeme
-this is a MERN stack application for posting the memes where you can add update and delete memes.
+This is a MERN stack application for posting the memes where you can add update and delete memes. <br/>
+Hosted website - https://xmeme--application.herokuapp.com/ <br/>
+Swagger UI documentation - https://xmeme-app-server.herokuapp.com/swagger-ui/ <br/>
 
 ## Tech stack 
 ReactJs<br/>
