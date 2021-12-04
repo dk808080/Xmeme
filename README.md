@@ -1,5 +1,5 @@
 # Xmeme
-this is a mern stack application for posting the memes where you can add update and delete memes.
+this is a MERN stack application for posting the memes where you can add update and delete memes.
 
 ## Tech stack 
 ReactJs<br/>
