@@ -1,5 +1,7 @@
 # Xmeme
-this is a MERN stack application for posting the memes where you can add update and delete memes.
+This is a MERN stack application for posting the memes where you can add update and delete memes. <br/><br/>
+Hosted website - https://xmeme--application.herokuapp.com/ <br/>
+Swagger UI documentation - https://xmeme-app-server.herokuapp.com/swagger-ui/ <br/>
 
 ## Tech stack 
 ReactJs<br/>
@@ -11,6 +13,9 @@ Mongoose
 
 ## Steps to Run 
 
+In project directory go to server folder and add a .env file which contains following -  <br/>
+MONGOURI= MongoDB atlas URL
+<br/>
 Then in the project directory, you can run:
 
 ### `cd server`
